@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#menu_order{
+	width: 1000px;
+	min-width: 1000px;
+
+	height: auto;
+	margin-bottom: 10px;
+	
+}
+#menu_order ul {
+	margin: 0;
+	height: 30px;
+	
+	
+}
+#menu_order li{
+	list-style: none;
+	float: right;
+
+	
+}
+
+#menu_order li:last-child{
+
+	margin-right: 10px;
+	
+}
+
+
+#Question table{ border-collapse: collapse;
+width: 800px;
+text-align: center;
+}
+#content{
+	display: flex;
+	width: 1000px;
+	
+}

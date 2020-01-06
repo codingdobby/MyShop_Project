@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#Order {
+
+	height: 50px;
+	
+}
+
+#content{
+		border: 2px solid black;
+		width: 1000px;
+	
+}

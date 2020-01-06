@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+/*비밀 번호 확인*/
+#Info {
+	border: 3px solid black;
+	width: 1000px;
+	min-width: 1000px;
+}
+
+#check_info {
+	font-size: 13pt;
+	margin-bottom: 30px;
+}
+
+#check_info input[type="password"] {
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	margin-top: 30px;
+}
+
+#check_info input[type="submit"] {
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	background-color: lightgray;
+	margin-top: 30px;
+}
+
+/*회원 정보 수정*/
+#menu_Bar ul {
+	margin-top: 300px;
+	width: 200px;
+	height: auto;
+	border:1px solid lightgray;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 30px;
+	width: 200px;
+}
+
+#menu_Bar a {
+	text-decoration: none;
+}
+
+#menu_Bar ul li {
+	margin-bottom: 10px;
+	padding: 22px;
+	border-bottom: 1px solid lightgray;
+	list-style: none;
+	height: 30px;
+	text-align: center;
+}
+
+#menu_Bar ul li:last-child {
+	border-bottom-color: transparent
+}
+
+#content {
+	display: flex;
+
+	width: 1200px;
+}
+
+#UpdateForm {
+	
+	width: 800px;
+}
+
+#UpdateForm table {
+	width: 600px;
+	min-width: 600px;
+	height: 500px;
+	min-height: 500px;
+	border-collapse: collapse;
+}
+
+#UpdateForm table tr td {
+	padding: 10px;
+}
+
+#UpdateForm input[type="text"] {
+	outline: none;
+	width: 300px;
+	height: 30px;
+	font-size: 15pt;
+	padding-left: 10px;
+}
+
+#UpdateForm input[type="password"] {
+	outline: none;
+	width: 300px;
+	height: 30px;
+	font-size: 15pt;
+	padding-left: 10px;
+}
+
+#UpdateForm #phone {
+	width: 80px;
+}
+
+select {
+	width: 80px; /* 원하는 너비설정 */
+	padding: .5em .5em; /* 여백으로 높이 설정 */
+	font-family: inherit; /* 폰트 상속 */
+	background:
+		url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+		no-repeat 95% 50%; /* 네이티브 화살표를 커스텀 화살표로 대체 */
+	border: 1px solid #999;
+	border-radius: 0px; /* iOS 둥근모서리 제거 */
+	-webkit-appearance: none; /* 네이티브 외형 감추기 */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#btns input {
+	height: 50px;
+	width: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
+	outline: none;
+	font-size: 10pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+
+#content_coupon {
+	width: 1200px;
+	min-width: 1200px;
+	border: 1px solid lightgray;
+	display: flex;
+}
+
+#add_coupon {
+	
+	margin: 20px;
+}
+
+#add_coupon input[type="text"] {
+	margin-right: 30px;
+	padding: 10px;
+	width: 200px;
+	height: 20px;
+}
+
+#add_coupon input[type="submit"] {
+	width: 100px;
+	height: 40px;
+}	
+
+#coupon_list table{
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+
+#coupon_list tr:first-child{
+	background-color:#f6f6f6;
+	
+	
+}

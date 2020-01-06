@@ -1,0 +1,52 @@
+
+11월 18, 2019 14:15:42.33 NEW SESSION
+11월 18, 2019 14:15:42.33 [16264:112:1118/141542.305:ERROR:webrtc_event_log_manager_remote.cc(408)] Session ID already set.
+
+11월 18, 2019 22:44:16.55 NEW SESSION
+11월 18, 2019 22:44:16.55 
+11월 18, 2019 22:44:16.55 KLIB_SelfTest return : KLR_OK
+11월 18, 2019 22:45:58.38 
+11월 18, 2019 22:45:58.39 KLIB_SelfTest return : KLR_OK
+
+11월 18, 2019 23:36:15.58 NEW SESSION
+11월 18, 2019 23:36:15.58 
+11월 18, 2019 23:36:15.59 KLIB_SelfTest return : KLR_OK
+
+11월 24, 2019 16:13:07.28 NEW SESSION
+11월 24, 2019 16:13:07.28 [11788:20508:1124/161307.260:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+11월 24, 2019 17:33:38.01 [11788:11228:1124/173338.016:ERROR:socket_stream.cc(218)] Closing stream with result -2
+11월 24, 2019 23:59:19.18 [11788:11228:1124/235919.184:ERROR:socket_stream.cc(218)] Closing stream with result -2
+
+11월 25, 2019 20:46:16.02 NEW SESSION
+11월 25, 2019 20:46:16.02 [9544:12544:1125/204616.019:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 25, 2019 20:46:16.03 [9544:12544:1125/204616.019:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+11월 26, 2019 24:09:34.53 
+11월 26, 2019 24:09:34.54 KLIB_SelfTest return : KLR_OK
+
+11월 26, 2019 20:43:41.93 NEW SESSION
+11월 26, 2019 20:43:41.93 [14332:2496:1126/204341.926:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 26, 2019 20:44:37.66 
+11월 26, 2019 20:44:37.67 KLIB_SelfTest return : KLR_OK
+11월 26, 2019 20:45:14.69 [2196:12272:1126/204514.693:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 26, 2019 20:45:25.50 
+11월 26, 2019 20:45:25.51 KLIB_SelfTest return : KLR_OK
+11월 26, 2019 20:45:49.93 [21148:14056:1126/204549.937:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 26, 2019 20:45:57.36 
+11월 26, 2019 20:45:57.37 KLIB_SelfTest return : KLR_OK
+11월 26, 2019 20:46:42.13 [11512:7400:1126/204642.131:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 26, 2019 20:46:42.13 [11512:7400:1126/204642.132:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+11월 26, 2019 20:50:49.36 
+11월 26, 2019 20:50:49.37 KLIB_SelfTest return : KLR_OK
+11월 26, 2019 20:50:53.93 [5624:6040:1126/205053.932:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 26, 2019 21:01:52.55 
+11월 26, 2019 21:01:52.55 KLIB_SelfTest return : KLR_OK
+11월 26, 2019 21:02:33.49 [13608:1788:1126/210233.496:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+11월 27, 2019 24:29:38.24 [13608:1788:1127/002938.244:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.855 s for first_image_paint 0.842 s
+11월 27, 2019 24:29:39.24 [13608:1788:1127/002939.247:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.855 s for first_image_paint 0.842 s
+11월 27, 2019 24:29:40.76 [13608:1788:1127/002940.762:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.855 s for first_image_paint 0.842 s
+11월 27, 2019 24:29:41.85 [13608:1788:1127/002941.854:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.855 s for first_image_paint 0.842 s
+11월 27, 2019 24:29:43.52 [13608:1788:1127/002943.519:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.855 s for first_image_paint 0.842 s
+11월 27, 2019 24:29:47.78 [13608:1788:1127/002947.783:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.855 s for first_image_paint 0.842 s
+11월 27, 2019 01:02:47.51 [13608:6484:1127/010247.480:ERROR:socket_stream.cc(218)] Closing stream with result -2
+11월 27, 2019 01:20:17.60 
+11월 27, 2019 01:20:17.61 KLIB_SelfTest return : KLR_OK

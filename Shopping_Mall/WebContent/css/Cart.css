@@ -1,0 +1,61 @@
+@charset "UTF-8";
+#product table {
+	border-collapse: collapse;
+}
+
+#product  input[type="checkbox"] {
+	float: right;
+}
+
+/* #product  input[type="button"] {
+	margin: auto;
+	outline: none;
+	width: 100px;
+	height: 50px;
+	font-size: 10pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #FFFFFF;
+	
+	
+} */
+
+
+#product_total {
+	
+	font-weight: bold;
+	font-size: 15pt;
+	text-align:  right;
+	width: 1000px;
+	min-width: 1000px;
+}
+#btn_List{
+	border:1px solid black;
+	width: 1000px;
+	height: 50px;
+	
+}
+
+#btn_List input[type="button"] {
+	outline: none;
+	width: 200px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#product img {
+	width: 100px;
+	height: 100px;
+
+}

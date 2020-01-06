@@ -1,0 +1,31 @@
+1572843134489	Rename resource 'footer.jsp'
+1572843139992	Rename resource 'header.jsp'
+1572843777890	Rename resource 'header.jspf'
+1572843783174	Rename resource 'footer.jspf'
+1572843792207	Rename resource 'footer.jspf'
+1572843797987	Rename resource 'Test.jspf'
+1572843803784	Rename resource 'header.jspf'
+1572843808212	Rename resource 'Testheader.jspf'
+1572849759022	Copy file
+1572854607401	Copy file
+1572854611958	Rename resource 'Header.jspf'
+1572854628973	Delete element
+1572854653793	Copy file
+1572854662357	Copy file
+1572936726979	Rename type 'SignUpDAO'
+1572936737030	Rename type 'SignUpVO'
+1572936739625	Delete element
+1572938498865	Rename resource 'logout.jsp'
+1572938550438	Rename resource 'logout.jsp'
+1572938555881	Rename resource 'test.jsp'
+1572940777972	Delete element
+1572940818380	Copy file
+1573000580525	Delete element
+1573023838319	Delete element
+1573023896113	Copy file
+1573026303202	Delete element
+1573028082542	Copy file
+1573091692323	Move 'test' to 'SignUp'
+1573097698622	Delete element
+1573110216814	Move 'seller' to 'jsp'
+1573113393793	Move 'seller_reg_proc.jsp' to 'seller'

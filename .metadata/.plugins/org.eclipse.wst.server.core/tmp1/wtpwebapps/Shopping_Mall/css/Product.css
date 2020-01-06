@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+#tab {
+	background-color: #F6F6F6;
+	width: 1000px;
+	min-width: 1000px;
+	height: auto;
+	
+}
+
+#tab input[type="radio"] {
+	display: none;
+}
+
+#tab label {
+	display: inline-block;
+	padding: 23px;
+	font-weight: bold;
+	text-align: center;
+	width: 283px;
+	font-size: 15pt;
+}
+
+#tab label:hover {
+	cursor: pointer;
+	color: #2e9cdf;
+}
+
+#tab input:checked+label {
+	background-color: #F6F6F6;
+	border-bottom: 2px solid transparent;
+}
+
+#tab_label {
+	width: 1000px;
+	background-color: #E8D9FF;
+}
+
+#wrapper {
+	display: flex;
+}
+
+/**********아이디 찾기****************/
+#content1 {
+	height: auto;
+}
+
+#member_id_box {
+	height: auto;
+	padding: 50px;
+	font-size: 15pt;
+}
+
+#member_id_box input[type="text"] {
+	width: 300px;
+	height: 50px;
+	outline: none;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 15pt;
+}
+
+#member_id_box input[type="button"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+
+/**********비밀 번호 찾기****************/
+#content2 {
+	height: 400px;
+}
+
+#member_pwd_box {
+	height: 300px;
+	padding: 50px;
+	font-size: 15pt;
+}
+
+#member_pwd_box input[type="text"] {
+	width: 300px;
+	height: 50px;
+	outline: none;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 15pt;
+}
+
+#member_pwd_box input[type="button"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+
+/********** 결과 보여주기****************/
+#content3 {
+	height: 400px;
+}
+
+#result {
+	height: 280px;
+	padding: 100px;
+	font-size: 30pt;
+	color: lightblue;
+}
+
+#product_function {
+	width: 1000px;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+#product_function h3 {
+	display: inline-block;
+}
+
+#product_img {
+
+	padding:10px;
+	width: 500px;
+	height: 500px;
+}
+
+#product_img  img {
+	width: 500px;
+	height: 450px;
+	margin-top: 40px;
+}
+
+#product_detail {
+	width: 500px;
+}
+
+#product_detail table {
+	width: 100%;
+	padding: 20px;
+	width: 500px;
+	border: 1px solid black;
+}
+
+#product_detail table td {
+	padding: 20px;
+	border-bottom: 1px solid lightgray;
+}
+

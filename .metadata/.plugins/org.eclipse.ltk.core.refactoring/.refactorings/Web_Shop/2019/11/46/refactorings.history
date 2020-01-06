@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ZipcodeBean.java&apos; to &apos;Shopping_Mall/src/member&apos;&#x0D;&#x0A;- Original project: &apos;Web_Shop&apos;&#x0D;&#x0A;- Destination element: &apos;Shopping_Mall/src/member&apos;&#x0D;&#x0A;- Original element: &apos;member.ZipcodeBean.java&apos;" description="Copy compilation unit" destination="=Shopping_Mall/src&lt;member" element1="/src&lt;member{ZipcodeBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573623723026" units="1" version="1.0"/>
+</session>

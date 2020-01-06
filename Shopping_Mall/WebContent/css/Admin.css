@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#container {
+	width: 1200px;
+	height: auto;
+}
+
+#content {
+	width: 100%;
+	height: auto;
+}
+
+#content table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	border-right: transparent;
+	border-left: transparent;
+}
+
+#info {
+	margin-bottom: 10px;
+}
+
+#list {
+	display: flex;
+	text-align: center;
+	width: 350px;
+
+}
+
+#list h2 {
+	font-size: 15pt;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#border_line {
+	display: flex;
+	width: 100%;
+}

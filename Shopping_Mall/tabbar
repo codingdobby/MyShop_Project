@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> 표준코딩 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+
+<style type="text/css">
+/* 공통영역 */
+body, select, input, textarea { font:11px/15px "돋움", dotum, Verdana, sans-serif ; color:#696969; -webkit-text-size-adjust:none; }
+html, body { margin:0; background-color:#fff;word-break:break-all;}
+form, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p { margin:0; padding:0;  }
+h1, h2, h3, h4, h5, h6 { font-size:12px; }
+ol, ul, li				{ list-style:none;}
+hr { display:none; }
+table { empty-cells:show; border-collapse:collapse; table-layout:fixed }
+li {  font:11px/15px "돋움", dotum, Verdana, sans-serif ; }
+a:link, a:visited			{ color:#696969; text-decoration:none;}
+a:active, a:hover, a:focus	{ color:#000000; text-decoration:none;}
+em { font-style:normal; }
+img { border:0; vertical-align:top; }
+img.mdl { vertical-align:middle; margin-bottom:1px;}
+label img {vertical-align:middle; margin-bottom:2px;}
+iframe, fieldset { margin:0; padding:0; border:0px; }
+legend{visibility:hidden;overflow:hidden;width:0;height:0;font-size:0;line-height:0;background-color:transparent;}
+caption{visibility:hidden;overflow:hidden;width:0;height:0;font-size:0;line-height:0;background-color:transparent;}
+
+/* 상품상세정보, 고객상품평, 상품Q&A, 배송/반품/교환 */
+ul.detail_tab:after	{ content:""; display:block; clear:both; }
+ul.detail_tab { *zoom:1; margin:0 0 20px 0;}
+ul.detail_tab li { float:left; background:url('http://image.lotteimall.com/imall_ec/site/images/detail/tab_bg.gif') no-repeat right top; }
+ul.detail_tab li.on { border-right:1px solid #cc1d22; background:url('http://image.lotteimall.com/imall_ec/site/images/detail/tab_bg.gif') no-repeat left bottom; }
+ul.detail_tab li.fst { background-position:left top;}
+ul.detail_tab li a { display:block; height:22px; padding:8px 0 0 0; text-align:center;}
+ul.detail_tab li a span { padding-left:3px; }
+ul.tab3 li { width:260px; }
+ul.tab2 li { width:169px; }
+ul.tab4 li {  width:195px; }
+
+div.dinfo_1 { margin:0 0 30px 0; }
+div.dinfo_2 { margin:0 0 30px 0; }
+div.dinfo_3 { margin:0 0 30px 0; }
+div.dinfo_4 { margin:0 0 30px 0; }
+</style>
+
+</head>
+<body>
+
+<div id="Detailtab1" class="dinfo_1">
+						<ul class="detail_tab tab4">
+							<li class="on"><a href="#Detailtab1"><img alt="상품상세정보 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_01_on.gif"></a></li>
+							<li><a href="#Detailtab2"><img alt="고객상품평 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_02_off.gif"><span id="gdasTotalCnt_1">(1)</span></a></li>
+							<li><a href="#Detailtab3"><img alt="상품 Q&amp;A 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_03_off.gif"> <span>(3)</span></a></li>
+							<li><a href="#Detailtab4"><img alt="배송/반품/교환 안내 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_04_off.gif"></a></li>
+						</ul>
+
+tab1
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+
+<div id="Detailtab2" class="dinfo_2">
+						<ul class="detail_tab tab4">
+							<li ><a href="#Detailtab1"><img alt="상품상세정보 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_01_off.gif"></a></li>
+							<li class="on"><a href="#Detailtab2"><img alt="고객상품평 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_02_on.gif"><span id="gdasTotalCnt_2">(1)</span></a></li>
+							<li><a href="#Detailtab3"><img alt="상품 Q&amp;A 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_03_off.gif"> <span>(3)</span></a></li>
+							<li><a href="#Detailtab4"><img alt="배송/반품/교환 안내 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_04_off.gif"></a></li>
+						</ul>
+tab2						
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+		
+<div id="Detailtab3" class="dinfo_3">
+						<ul class="detail_tab tab4">
+							<li ><a href="#Detailtab1"><img alt="상품상세정보 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_01_off.gif"></a></li>
+							<li ><a href="#Detailtab2"><img alt="고객상품평 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_02_off.gif"><span id="gdasTotalCnt_2">(1)</span></a></li>
+							<li class="on"><a href="#Detailtab3"><img alt="상품 Q&amp;A 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_03_on.gif"> <span>(3)</span></a></li>
+							<li><a href="#Detailtab4"><img alt="배송/반품/교환 안내 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_04_off.gif"></a></li>
+						</ul>
+tab3						
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<div id="Detailtab4" class="dinfo_4">
+						<ul class="detail_tab tab4">
+							<li ><a href="#Detailtab1"><img alt="상품상세정보 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_01_off.gif"></a></li>
+							<li ><a href="#Detailtab2"><img alt="고객상품평 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_02_off.gif"><span id="gdasTotalCnt_2">(1)</span></a></li>
+							<li ><a href="#Detailtab3"><img alt="상품 Q&amp;A 목록" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_03_off.gif"> <span>(3)</span></a></li>
+							<li class="on"><a href="#Detailtab4"><img alt="배송/반품/교환 안내 보기" src="http://image.lotteimall.com/imall_ec/site/images/detail/tab_04_on.gif"></a></li>
+						</ul>
+tab4						
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+					
+
+
+
+

@@ -1,0 +1,162 @@
+<%@page import="Product.ProductVO"%>
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<jsp:useBean id="dao" class="Product.ProductDAO.java"></jsp:useBean>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.slide-box_middle {
+	width: 1000px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid black;
+}
+
+.slide-box_middle img {
+	width: 99%;
+	height: 99%;
+	border: 0px;
+	display: block;
+	position: absolute;
+}
+</style>
+<title>메인페이지</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../css/Main.css?after">
+
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/css/jquery.bxslider.css">
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.bxslider.js"></script>
+
+
+
+<script src="${pageContext.request.contextPath}/js/midslide.js"></script>
+</head>
+<body>
+	<jsp:include page="../Fix/Header.jsp" flush="false" />
+
+	<div align="center">
+		<div class="slide-box_middle">
+
+			<%
+				ArrayList<ProductVO> random = dao.getRandom();
+				for (ProductVO vo : random) {
+			%>
+			<a
+				href="${pageContext.request.contextPath}/jsp/Product/Product_Detail.jsp?num=<%=vo.getProduct_num()%>">
+
+				<img src="../../uploadFile/<%=vo.getProduct_img()%>" alt="slide">
+			</a>
+
+
+
+			<%
+				}
+			%>
+		</div>
+
+
+
+
+		<h2>최다 조회수 상품</h2>
+		<div class="section2">
+			<div class="hit_product">
+
+
+
+				<ul id="ul_box" style="-webkit-padding-start: 0px;">
+
+					<%
+						ArrayList<ProductVO> hitlist = dao.getHitProduct();
+						for (ProductVO vo : hitlist) {
+					%>
+					<li><a
+						href="${pageContext.request.contextPath}/jsp/Product/Product_Detail.jsp?num=<%=vo.getProduct_num()%>"><img
+							src="../../uploadFile/<%=vo.getProduct_img()%>" id="product_img"></a>
+						<ul style="-webkit-padding-start: 0px;">
+							<li><%=vo.getProduct_name()%></li>
+							<li><a
+								href="${pageContext.request.contextPath}/jsp/Product/Product_Detail.jsp?num=<%=vo.getProduct_num()%>">
+									<span id="event_title"><%=vo.getPrice()%></span>
+							</a></li>
+
+
+
+						</ul></li>
+
+
+
+					<%
+						}
+					%>
+
+
+
+				</ul>
+			</div>
+		</div>
+
+		<h2>New 상품</h2>
+		<div class="section2">
+			<div class="hit_product">
+
+
+
+				<ul id="ul_box" style="-webkit-padding-start: 0px;">
+
+					<%
+						ArrayList<ProductVO> newlist = dao.getNewProduct();
+						for (ProductVO vo : newlist) {
+					%>
+
+					<li><a
+						href="${pageContext.request.contextPath}/jsp/Product/Product_Detail.jsp?num=<%=vo.getProduct_num()%>"><img
+							src="../../uploadFile/<%=vo.getProduct_img()%>" id="product_img"></a>
+						<ul style="-webkit-padding-start: 0px;">
+							<li><%=vo.getProduct_name()%></li>
+							<li><a
+								href="${pageContext.request.contextPath}/jsp/Product/Product_Detail.jsp?num=<%=vo.getProduct_num()%>">
+									<span id="event_title"><%=vo.getPrice()%></span>
+							</a></li>
+
+
+
+
+						</ul></li>
+
+
+
+					<%
+						}
+					%>
+
+
+
+				</ul>
+
+
+
+
+			</div>
+		</div>
+		<!-- section end -->
+		<!-- 
+
+		<div id="MDChoice">
+			<h1>MD's Pick!</h1>
+			MD 가 픽한 상품
+		</div> -->
+
+
+	</div>
+	<!-- div center end -->
+
+	<jsp:include page="../Fix/Footer.jsp" flush="false" />
+</body>
+</html>

@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+#SignUpFrom table {
+	width: 600px;
+	min-width: 600px;
+	height: 500px;
+	min-height: 500px;
+	border-collapse: collapse;
+}
+/*회원 동의 페이지*/
+#agreeBox {
+	width: 1000px;
+	min-width: 1000px;
+	height: 80%;
+	border: 1px solid lightgray;
+}
+
+#agreeBox ul li {
+	text-align: left;
+	padding: 30px;
+	list-style: none;
+}
+
+#btn {
+	margin: 10px;
+}
+
+#chk_all {
+	margin: 10px;
+}
+
+#btn input[type="button"] {
+	outline: none;
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+
+/*회원 종류 구분 페이지*/
+#Distinct_Box {
+	border: 1px solid black;
+	width: 1000px;
+	min-width: 1000px;
+	background-color:;
+	height: 500px;
+	display: table;
+}
+
+#Distinct_Box  div {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+/*회원 가입 폼 페이지*/
+#step {
+	font-size: 23pt;
+	width: 650px;
+	height: 100px;
+	margin-top: 50px;
+}
+
+#step1 {
+	float: right;
+}
+
+#step2 {
+	float: right;
+}
+
+#step1 {
+	float: right;
+}
+
+#SignUpForm {
+	width: 700px;
+	height: 80%;
+}
+
+#SignUpForm table {
+	width: 400px;
+	min-width: 400px;
+	height: 80%;
+	border-collapse: collapse;
+}
+
+#SignUpForm input[type="text"] {
+	outline: none;
+	width: 300px;
+	height: 20px;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #BDBDBD;
+}
+
+#SignUpForm input[type="password"] {
+	outline: none;
+	width: 300px;
+	height: 20px;
+	display: block;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #BDBDBD;
+}
+
+#SignUpForm span {
+	color: red;
+}
+
+select {
+	width: 80px; /* 원하는 너비설정 */
+	font-size: 13pt;
+	padding: 1em .5em; /* 여백으로 높이 설정 */
+	font-family: inherit; /* 폰트 상속 */
+	background:
+		url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+		no-repeat 95% 50%; /* 네이티브 화살표를 커스텀 화살표로 대체 */
+	border: 1px solid #BDBDBD;
+	border-radius: 5px; /* iOS 둥근모서리 제거 */
+	-webkit-appearance: none; /* 네이티브 외형 감추기 */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#SignUpForm #zipcode {
+	width: 200px;
+}
+
+#SignUpForm #btnZip {
+	outline: none;
+	width: 100px;
+	height: 50px;
+	margin: 20px;
+	font-size: 10pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+
+#SignUpForm #address1 {
+	width: 400px;
+}
+
+#SignUpForm  #phone2 {
+	width: 80px;
+}
+
+#SignUpForm #phone3 {
+	width: 80px;
+}
+
+#SignUpForm #hyp {
+	font-size: 20pt;
+	color: black
+}
+
+#btns input {
+	height: 50px;
+	width: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
+	outline: none;
+	font-size: 10pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+
+/************판매자 css****************/
+#Seller_Box {
+	width: 1000px;
+}
+
+#Seller_Box  table {
+	width: 1000px;
+	min-width: 1000px;
+	border-collapse: collapse;
+}
+
+#Seller_Box  table td:first-child {
+	text-align: center;
+}
+
+#Seller_Box input[type="text"] {
+	outline: none;
+	width: 80px;
+	height: 10px;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #BDBDBD;
+}
+
+#Seller_Box input[type="password"] {
+	outline: none;
+	width: 350px;
+	height: 10px;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #BDBDBD;
+}
+
+#Seller_Box #hyp {
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#Seller_Box #phone2 {
+	width: 80px;
+}
+
+#Seller_Box #phone3 {
+	width: 80px;
+}
+
+#Seller_Box #input2 {
+	outline: none;
+	width: 350px;
+	height: 10px;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #BDBDBD;
+}
+
+#Seller_Box select {
+	width: 90px; /* 원하는 너비설정 */
+	font-size: 13pt;
+	padding: .7em .5em; /* 여백으로 높이 설정 */
+	font-family: inherit; /* 폰트 상속 */
+	background:
+		url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+		no-repeat 95% 50%; /* 네이티브 화살표를 커스텀 화살표로 대체 */
+	border: 1px solid #BDBDBD;
+	border-radius: 5px; /* iOS 둥근모서리 제거 */
+	-webkit-appearance: none; /* 네이티브 외형 감추기 */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#Seller_Box input[type="submit"] {
+	outline: none;
+	width: 400px;
+	height: 50px;
+	margin: 20px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 5px;
+	color: #FFFFFF;
+}

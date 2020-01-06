@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#writeForm input[type="text"]{
+	width: 200px;
+	
+}
+textarea {
+	font-size: 13pt;
+}
+#writeForm input[type="reset"]{
+	width: 100px;
+}
+
+#writeForm input[type="button"]{
+	
+	width: 100px;
+}

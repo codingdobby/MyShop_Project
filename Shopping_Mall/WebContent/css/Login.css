@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+#Box {
+	border: 1px solid lightgray;
+	min-width: 1000px;
+	display: table;
+}
+
+#MemberType {
+	display: inline-block;
+	width: 500px;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+#MemberType input[type="radio"] {
+	margin-top: 20px;
+}
+
+#LoginBox {
+	box-sizing: border-box;
+	height: 500px;
+	width: 500px;
+}
+
+#coupon_banner {
+	
+	box-sizing: border-box;
+	height: 300px;
+	width: 300px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 50px;
+}
+#coupon_banner ul {
+	margin: 0;
+	
+}
+#coupon_banner li {
+	list-style: none;
+}
+
+#coupon_banner img {
+	width: 99%;
+	height: 99%;
+}
+/********************/
+#Login_Member {
+	padding: 30px;
+	border: 1px solid black;
+	margin: 30px;
+}
+
+#Login_Member input[type="text"] {
+	outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#Login_Member input[type="password"] {
+	outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#Login_Member p {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#Login_Member a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+#Login_Member a:visited {
+	color: black;
+}
+
+#Login_Member a:hover {
+	color: #B5B2FF;
+}
+
+#Login_Member input[type="submit"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+/********************/
+/********************/
+#Login_non_Member {
+	padding: 30px;
+	border: 1px solid black;
+	margin: 30px;
+}
+
+#Login_non_Member input[type="text"] {
+	outline: none;
+	width: 250px;
+	height: 20px;
+	font-size: 15pt;
+	border-radius: 5px;
+	padding: 20px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#Login_non_Member input[type="password"] {
+	outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#Login_non_Member p {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#Login_non_Member input[type="submit"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+
+#Login_non_Member #phone {
+	width: 50px;
+	height: 15px;
+}
+
+/********************/
+
+/********************/
+#Login_Seller {
+	padding: 30px;
+	border: 1px solid black;
+	margin: 30px;
+}
+
+#Login_Seller input[type="text"] {
+outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#Login_Seller input[type="password"] {
+outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#Login_Seller p {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#Login_Seller a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+#Login_Seller a:visited {
+	color: black;
+}
+
+#Login_Seller a:hover {
+	color: #B5B2FF;
+}
+
+#Login_Seller input[type="submit"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+/********************/
+#Login_non_Member select {
+	width: 80px; /* 원하는 너비설정 */
+	font-size:13pt;
+	padding: 1em .5em; /* 여백으로 높이 설정 */
+	font-family: inherit; /* 폰트 상속 */
+	background:
+		url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+		no-repeat 95% 50%; /* 네이티브 화살표를 커스텀 화살표로 대체 */
+	border: 1px solid #eeeeee;
+	border-radius: 5px; /* iOS 둥근모서리 제거 */
+	-webkit-appearance: none; /* 네이티브 외형 감추기 */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+/***********아이디 비밀번호 찾기*********/
+#tab {
+	background-color: #F6F6F6;
+	width: 800px;
+	min-width: 800px;
+	height: 500px;
+	border: 3px solid #eeeeee;
+}
+
+#tab input[type="radio"] {
+	display: none;
+}
+
+#tab label {
+	display: inline-block;
+	padding: 22px;
+	font-weight: bold;
+	text-align: center;
+	width: 351px;
+	font-size: 15pt;
+}
+
+#tab label:hover {
+	cursor: pointer;
+	color: #2e9cdf;
+}
+
+#tab input:checked+label {
+	background-color: #F6F6F6;
+	border: 2px solid #eeeeee;
+	border-bottom: 2px solid transparent;
+}
+
+#tab_label {
+	width: 800px;
+	background-color: #E8D9FF;
+}
+
+#wrapper {
+	display: flex;
+}
+
+/**********아이디 찾기****************/
+#content1 {
+	height: 400px;
+}
+
+#member_id_box {
+	height: 300px;
+	padding: 50px;
+	font-size: 15pt;
+}
+
+#member_id_box input[type="text"] {
+	outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#member_id_box input[type="button"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+
+/**********비밀 번호 찾기****************/
+#content2 {
+	height: 400px;
+}
+
+#member_pwd_box {
+	height: 300px;
+	padding: 50px;
+	font-size: 15pt;
+}
+
+#member_pwd_box input[type="text"] {
+	outline: none;
+	width: 250px;
+	height: 20px;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 15pt;
+	padding: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #eeeeee;
+}
+
+#member_pwd_box input[type="button"] {
+	outline: none;
+	width: 300px;
+	height: 50px;
+	font-size: 15pt;
+	box-sizing: border-box;
+	background-color: #E8D9FF;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	color: #5D5D5D;
+	cursor: pointer;
+}
+
+/********** 결과 보여주기****************/
+#content3 {
+	height: 400px;
+}
+
+#result {
+	height: 280px;
+	padding: 100px;
+	font-size: 30pt;
+	color: lightblue;
+}

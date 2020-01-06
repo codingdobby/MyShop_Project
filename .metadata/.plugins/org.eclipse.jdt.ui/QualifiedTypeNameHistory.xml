@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="Coupon.CouponVO"/>
+<fullyQualifiedTypeName name="member.MemberVO"/>
+<fullyQualifiedTypeName name="seller.SellerVO"/>
+<fullyQualifiedTypeName name="seller.ProductVO"/>
+<fullyQualifiedTypeName name="Product.categoryVO"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.impl.ior.GenericTaggedProfile"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Admin.EventVO"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="seller.CouponVO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Product.cartVO"/>
+<fullyQualifiedTypeName name="Board.NoticeVO"/>
+</qualifiedTypeNameHistroy>
