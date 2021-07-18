@@ -1,4 +1,4 @@
-# MyShop_Project (수정중)
+# MyShop_Project (README수정중)
 JSP로 제작한 온라인 편집샵 프로젝트입니다
 
 
